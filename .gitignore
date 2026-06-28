@@ -1,0 +1,37 @@
+# ========================
+# Dependencies (generated)
+# ========================
+node_modules/
+
+# ========================
+# Build output (generated)
+# ========================
+dist/
+dist-ssr/
+build/
+
+# ========================
+# Secret files (IMPORTANT!)
+# ========================
+.env
+.env.local
+.env.production
+.env.development
+
+# ========================
+# Editor files (personal)
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# OS files (useless)
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs (generated)
+# ========================
+*.log
+npm-debug.log*
