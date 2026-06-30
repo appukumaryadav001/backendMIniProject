@@ -7,7 +7,13 @@ const userSchema = new mongoose.Schema({
    name:{type:String},
    age:{type:Number},
    email:{type:String},
-   password:{String}
+   password:{String},
+   posts:[
+      {
+         type:mongoose.Types.ObjectId,
+         ref:"Post"
+      }
+   ]
 },{timestamps:true});
 
 
